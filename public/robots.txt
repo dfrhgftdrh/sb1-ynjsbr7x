@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://ringbuz.in/sitemap.xml
+
+# Disallow admin routes
+Disallow: /admin/
+Disallow: /auth/
+
+# Allow specific content paths
+Allow: /content/
+Allow: /tag/
+Allow: /explore/
+Allow: /sitemap/
